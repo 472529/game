@@ -1023,6 +1023,9 @@ self.C3_JsPropNameTable = [
 	{List: 0},
 	{iframe: 0},
 	{SpriteFont2: 0},
+	{Sprite26: 0},
+	{Sprite27: 0},
+	{Sprite28: 0},
 	{Score: 0}
 ];
 
