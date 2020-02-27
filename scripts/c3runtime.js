@@ -906,7 +906,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Behaviors.Bullet.Acts.SetSpeed,
 		C3.Behaviors.Bullet.Exps.Speed,
 		C3.Plugins.Sprite.Cnds.IsOnScreen,
-		C3.Plugins.Spritefont2.Acts.SetText
+		C3.Plugins.Spritefont2.Acts.SetText,
+		C3.Plugins.Audio.Acts.StopAll
 	];
 };
 self.C3_JsPropNameTable = [
@@ -1026,6 +1027,9 @@ self.C3_JsPropNameTable = [
 	{Sprite26: 0},
 	{Sprite27: 0},
 	{Sprite28: 0},
+	{Sprite29: 0},
+	{Sprite30: 0},
+	{Sprite31: 0},
 	{Score: 0}
 ];
 
@@ -1149,6 +1153,7 @@ self.C3_JsPropNameTable = [
 			const n0 = p._GetNode(0);
 			return () => n0.ExpObject();
 		},
+		() => -10,
 		() => 1,
 		() => 0.1,
 		() => 25,
@@ -1200,7 +1205,8 @@ self.C3_JsPropNameTable = [
 			return () => and("Score:", v0.GetValue());
 		},
 		() => 7,
-		() => 10
+		() => 10,
+		() => 5
 	];
 }
 
