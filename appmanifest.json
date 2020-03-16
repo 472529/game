@@ -1,7 +1,7 @@
 {
 	"name": "OUTLAWSHAN SOLO",
 	"short_name": "OUTLAWSHAN SOLO",
-	"description": "",
+	"description": "OUTAW/HAN SOLO game demo for college",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",
